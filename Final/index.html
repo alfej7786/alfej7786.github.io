@@ -1,0 +1,204 @@
+<!-- 
+    Student Name: Alfej Savaya
+    Student ID: 118823210
+    Student Email: aasavaya@gmail.com
+    Course Code: WEB222 NFF
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Alfej</a>
+            <ul class="navbar">
+                <li><a href="#home" class="navlink">Home</a></li>
+                <li><a href="#about" class="navlink">About</a></li>
+                <li><a href="#education" class="navlink">Education</a></li>
+                <li><a href="#contact" class="navlink">Contact</a></li>
+            </ul>
+            <!-- Menu -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home" container= "home">
+        <div class="home-content">
+                <img src="/pictures/myPic.JPG" alt="My Picture"  id="home">
+            <div class="home-text">
+                <h3 >HI THERE !</h3>
+                <h2>I'm <span class="color">Alfej</span></h2>
+                <p>I'm an <span class="color">International Student</span> From Zambia. <br> Currently pursuing Advanced Dipmloma in <span class="color">Computer Programming and Analysis</span> <br> in <span class="color">Seneca College</span>. My aim is to upgrade my programming skills <br> as much as i can for a brighter future. </p> <br>
+            </div>
+            <div class="home-btns">
+                <a download="Alfej Savaya - RESUME.pdf" href="/files/Resume.pdf"><button class="btn">Resume <i class='bx bx-download'></i></button></a>
+                <a href="#contact"><button class="btn">Contact Me</button></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About -->
+    <section class="about" id="about">
+        <h1 class="heading"> <span>About</span> Me </h1>
+    <div class="row">
+        <div class="info">
+            <h4> <span> Name : </span> Alfej Savaya </h3>
+            <h4> <span> Age : </span> 21 </h4>
+            <h4> <span> Email : </span> aasavaya@myseneca.ca </h4>
+            <h4> <span> Language : </span> English </h4>
+            <h4> <span> Class Code/Section : </span> WEB222 NFF </h4>
+            <h4> <span> Student ID : </span> 118824210 </h4>
+            <h4> <span> Instructor : </span> Dr. Muath Alzghool </h4>
+        </div>
+        <div class="about-text">
+            <h2>ABOUT MY ACADEMIC HONESTY: </h2>
+            <p>I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.</p>
+            <div>
+                <p><span><strong>Date: </strong></span>Aug 11, 2022</p>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Education -->
+
+<section class="education" id="education">
+
+    <h1 class="heading"> My <span>Education</span> </h1>
+    <div class="box-container">
+    
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Jan 2022 - 2024 (Expected)</span>
+            <h3>Student at Seneca College</h3>
+            <p>Pursuing Advanced Diploma in Computer Programming and Analysis. Speciallised in Object-Oriented Programming, SQL Database, and WEB Programming.</p>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Jan 2017 - Dec 2020</span>
+            <h3>Student at Shakespeare College</h3>
+            <p>Pusued International General Certificate for Secondary Education. I was particularly skilled in Information Communication and Technology.</p>
+        </div>
+    
+    </div>
+    
+    </section>
+
+    <!-- Contact -->
+    <section class="contact container" id="contact">
+        <h2 class="heading">Contact Me</h2>
+        <div class="contact-content">
+        <form action="https://httpbin.org/post" class="contact-form" id="contact-form" method="POST">
+          
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" class="name format">
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" placeholder="Email address" class="email format">
+
+            <label for="address">Current Address:</label>
+            <textarea name="address" id="address" cols="30" rows="2" placeholder="Enter your full address" class="address"></textarea>
+
+            <label for="name">City:</label>
+            <input class="format" type="text" id="city" name="city" list="suggestions" placeholder="Enter your City"/>
+            <datalist id="suggestions">
+                <option label="Barrie" value="Barrie"></option>
+                <option label="Calgary" value="Calgary"></option>
+                <option label="Charlottetown" value="Charlottetown"></option>
+                <option label="Chibougamau" value="Chibougamau"></option>
+                <option label="Chilliwack" value="Chilliwack"></option>
+                <option label="Cold Lake" value="Cold Lake"></option>
+                <option label="Dorval" value="Dorval"></option>
+                <option label="Edmonton" value="Edmonton"></option>
+                <option label="Flin Flon" value="Flin Flon"></option>
+                <option label="Hamilton" value="Hamilton"></option>
+                <option label="Iqualuit" value="Iqualuit"></option>
+                <option label="Ottawa" value="Ottawa"></option>
+                <option label="Miramichi" value="Miramichi"></option>
+                <option label="Montreal" value="Montreal"></option>
+                <option label="Red Deer" value="Red Deer"></option>
+                <option label="Scarborough" value="Scarborough"></option>
+                <option label="St. John" value="St. John"></option>
+                <option label="St. John's" value="St. John's"></option>
+                <option label="Toronto" value="Toronto"></option>
+                <option label="Vancouver" value="Vancouver"></option>
+                <option label="Whitehorse" value="Whitehorse"></option>
+                <option label="Winnipeg" value="Winnipeg"></option>
+                <option label="Yellowknife" value="Yellowknife"></option>
+            </datalist>
+
+            <label for="pCode">Postal Code:</label>
+            <input name="Postal_Code" type="text" id="pCode" class="format" placeholder="Postal Code">
+
+            <br>
+            <div class="radio-btns">
+                <label for="purpose">What is the purpose of this message?</label><br><br>
+                <input type="radio" id="question" name="purpose" value="question">
+                <label for="question">Question</label><br>
+                <input type="radio" id="comment" name="purpose" value="comment">
+                <label for="comment">Comment</label><br>
+                <input type="radio" id="hiring" name="purpose" value="hiring">
+                <label for="hiring">Hiring</label>
+            </div>
+            <br>
+
+            <label for="message">Message for me:</label>
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your message..." class="address"></textarea>
+
+            <label for="field">What is your field of work?</label>
+            <select name="field" id="field" size=5>
+                <option value="Software developer" selected>Software developer</option>
+                <option value="Computer support specialists">Computer support specialists</option>
+                <option value="Computer network architects">Computer network architects</option>
+                <option value="Database administrators and architects">Database administrators and architects</option>
+                <option value="Computer systems analysts">Computer systems analysts</option>
+                <option value="IT project managers">IT project managers</option>
+                <option value="Other">Other</option>
+             </select>                       
+
+            <div class="form-btns">
+                <input type="submit" value="Send" class="btn">
+                <input type="reset" value="Clear" class="btn">
+            </div>
+            <div id="error"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer containers" id="footer">
+        <div class="social">
+            <a href="mailto: aasavaya@myseneca.ca"><i class='bx bx-envelope'></i></a>
+            <a href="https://github.com/alfej7786"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Disclaimer</a>
+        </div>
+
+        <!-- copyright -->
+        <p>&#169; alfej savaya</p>
+    </section>
+
+    <!-- Link to JavaScript -->
+    <script src="/script/script.js"></script>
+    <!-- Link to Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
