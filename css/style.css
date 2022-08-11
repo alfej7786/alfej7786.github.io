@@ -352,6 +352,10 @@ header {
     background:var(--yellow);
 }
 
+.date {
+    display: block;
+}
+
 .heading {
     font-size: 3rem;
     text-align: center;
